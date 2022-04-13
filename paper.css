@@ -1,0 +1,747 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Monoton&family=Nunito+Sans:ital@1&family=Oswald:wght@200;400&family=Playfair+Display:wght@600;900&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Monoton&family=Montserrat:wght@200&family=Nunito+Sans:ital@1&family=Oswald:wght@200;400&family=Playfair+Display:wght@600;900&family=Staatliches&display=swap');
+
+body {
+    webkit-font-smoothing: antialiased;
+    background-color: #89cff0;
+    width: 100%;
+    font-weight: 400;
+
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        width: 100%;
+        background-color: green;
+        color: black;
+    }
+
+    #grid-1 {
+       display: none;
+    } 
+    #grid-2{
+        padding: 20px;
+      margin-left: -130px;
+    }
+
+    #grid-3 {
+       margin-left: -100px;
+    }
+    #grid-4 {
+        margin-left: 20px;
+    }
+    #grid-5 {
+       display: none;
+    }
+
+ .girl {
+    display: none;
+} 
+
+ .boy3 {
+    position: relative;
+    height: 150px;
+    width: 170px;
+    margin-top: -370px;
+    padding: 20px;
+    float: right;
+} 
+
+#paper-text1 {
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    margin-top: 70px;
+
+}
+
+.boy2-div>img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn {
+    margin-top: 50px;
+}
+
+.boy2-div {
+    padding: 2px;
+    margin-bottom: 50px;
+    height: 500px;
+    width: 100%;
+}
+.navbar-toggler {
+   margin-top: -30px;
+   
+}
+}
+
+
+@media screen and (max-width: 800px) {
+    body {
+        background-color: pink;
+        color: black;
+        width: 100%;
+    }
+
+    .girl {
+        display: none;
+    }
+
+    .boy3 {
+        display: none;
+    }
+
+    .boy1 {
+        float: right;
+    }
+
+    .navbar_toggler {
+        float: right;
+    }
+}
+
+/* On screens that are 560px wide or less, the background color is olive */
+
+@media screen and (max-width: 560px) {
+    body {
+        background-color:#89cff0;
+        color: black;
+    }
+
+    .girl {
+        display: none;
+    }
+
+    #boy1-div {
+
+        width: 50%;
+        margin-left: 70px;
+    }
+
+    .boy1 {
+        width: 50%;
+
+
+    }
+    hr{
+        display: none;
+    }
+    #grid-1 {
+        position:absolute ;
+        margin-top: -83px;
+        margin-left: -250px;
+      
+    } 
+    #grid-2{
+        padding: 20px;
+      margin-left: -130px;
+    }
+
+    #grid-3 {
+        display: none;
+    }
+    #grid-4 {
+        display: none;
+    }
+    #grid-5 {
+        position: relative;
+       margin-left: -520px;
+       margin-top: 50px;
+    }
+    #btn-div{
+        width: 30%;
+        justify-content: center;
+     margin-left: 200px;
+    }
+    #work-detail {
+    width: 60%;
+    height: 400px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#work-detail>h3 {
+    margin-left: -55px;
+    padding: 0px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;       
+}
+
+#work-detail>h4 {
+    margin-left: -30px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#btn-1 {
+    justify-content: first baseline;
+    width: 150%;
+    margin-left:-350px;
+    margin-bottom: 150px;
+    height: 80px;
+}
+
+#btn-1>a {
+    text-align: center;
+    color: white;
+    padding-top: -70px;
+    font-family: 'Montserrat', sans-serif;
+}
+#work-image{
+    width: 60%;
+    
+    border-radius: 8px;
+    background-color: #89cff0;
+    font-family: 'Montserrat', sans-serif;
+}
+#work-image>img{
+    width:100%;
+    min-height: 50%;
+}
+  
+}
+
+
+
+.bg {
+
+    width: 100%;
+
+    height: 800px;
+    position: absolute;
+}
+
+.logo-img {
+
+    justify-content: start;
+    position: absolute;
+    width: 10px;
+    margin-left: 100px;
+    /* margin-left: 210px; */
+    margin-top: 40px;
+}
+
+.logo {
+    justify-content: start;
+    position: absolute;
+    width: 30px;
+    /* margin-left: 210px; */
+    margin-top: -30px;
+}
+
+.nav {
+    margin-left: 290px;
+    justify-content: space-between;
+}
+
+.navbar {
+    position: relative;
+    font-size: 13px;
+    justify-content: end;
+
+
+    margin-top: -30px;
+}
+
+.boy1 {
+    position: relative;
+    width: 170px;
+    height: 140px;
+    margin-top: 20px;
+    margin-left: 200px;
+
+
+}
+
+.girl {
+    position: relative;
+    width: 280px;
+    height: 140px;
+    margin-top: -10px;
+    margin-left: 250px;
+
+
+}
+
+.boy3 {
+    position: relative;
+
+    width: 200px;
+    height: 220px;
+    margin-left: 960px;
+
+}
+
+.boy2 {
+    position: relative;
+    float: right;
+    width: 100%;
+
+    height: 280px;
+    float: left;
+    margin-top: -90px;
+
+}
+
+.navbar-toggler {
+    width: 50px;
+    height: 34px;
+    margin-top: -30px;
+    margin-left: 130px;
+}
+
+#navbarNav {
+    text-align: right;
+    padding: 10px;
+    justify-content: last baseline;
+    word-spacing: 20px;
+    justify-content: space-between;
+}
+
+#navbarNav ul {
+    text-align: end;
+    word-spacing: 20px;
+    justify-content: space-between;
+}
+
+#paper-text1 {
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    text-align: center;
+
+}
+
+#paper-text1>h1 {
+    font-size: 80px
+}
+
+#paper-text2 {
+
+    position: relative;
+    text-align: center;
+}
+
+#paper-text2>h3 {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#paper-text3 {
+    position: relative;
+    text-align: center;
+}
+
+.btn {
+    height: 45px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: navy;
+}
+
+#let {
+    text-decoration: none;
+}
+
+.boy2-div {
+    height: 190px;
+    width: 100%;
+}
+
+.section-2 {
+    background-color: white;
+
+}
+
+#h1-text {
+    align-items: center;
+    padding: 20px;
+}
+
+#h1-text2 {
+    align-items: center;
+    padding: 20px;
+}
+
+#h1-text2>h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+#h1-text2>h3 {
+    text-align: center;
+}
+
+#h1-text2>hr {
+    margin-top: 19px;
+    text-align: center;
+}
+
+hr {
+    width: 5%;
+    background-color: red;
+    margin-left: 640px;
+    padding: 2px;
+    margin-top: -5px;
+}
+
+#h1-text>h1 {
+    text-align: center;
+
+}
+
+#myvideo {
+    width: 100%;
+    height: 200px;
+    border-radius: 100%;
+}
+
+#card-body {
+    padding: 10px;
+    border-radius: 50%;
+    border: 0;
+}
+
+#card-body>img {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* styling the grid   */
+/* .grid-container {
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0px;
+    background-color: #2196F3;
+
+} */
+
+/* .grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    
+   padding:50px;
+
+    width: 50%;
+} */
+
+.container {
+    width: 100%;
+}
+
+/* styling the first vertical div with one pic */
+#grid-1 {
+    padding: 10px;
+    width: 150px;
+}
+
+.one-first {
+    width: 150px;
+    background-color: white;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 120px;
+    padding: 10px;
+    margin-left: -30px;
+
+}
+
+.one-first>img {
+    margin-top: 28px;
+    width: 110px;
+}
+
+/* styling the second vertical div with two pic */
+#grid-2 {
+    padding: 10px;
+    width: 150px;
+}
+
+.two-first {
+    width: 150px;
+    background-color: white;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 38px;
+    padding: 10px;
+}
+
+.two-first>img {
+    margin-top: 18px;
+    width: 110px;
+}
+
+.two-second {
+    width: 150px;
+    background-color: white;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 27px;
+    padding: 15px;
+
+}
+
+.two-second>img {
+    margin-top: 18px;
+    width: 110px;
+}
+
+/* styling the third vertical div with tthree pic */
+#grid-3 {
+    margin-left: 300px;
+    margin: 10px;
+    width: 150px;
+    padding: 50px;
+}
+
+.third-first {
+    width: 150px;
+    background-color: white;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: -50px;
+    padding: 15px;
+
+}
+
+.third-first>img {
+    margin-top: 15px;
+    width: 110px;
+}
+
+.third-second {
+    margin-top: 20px;
+
+    width: 150px;
+    background-color: white;
+    height: 100px;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+.third-second>img {
+    margin-top: 28px;
+    width: 110px;
+
+}
+
+.third-third {
+    margin-top: 20px;
+
+    width: 150px;
+    background-color: white;
+    height: 100px;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+.third-third>img {
+    margin-top: 28px;
+    width: 110px;
+}
+
+/* styling the fuorth vertical div with two pic */
+#grid-4 {
+    padding: 10px;
+    width: 150px;
+}
+
+.fourth-first {
+    width: 150px;
+    background-color: white;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 38px;
+    margin-left: 60px;
+    padding: 15px;
+
+}
+
+.fourth-first>img {
+    margin-top: 28px;
+    width: 110px;
+}
+
+.fourth-second {
+    width: 150px;
+    background-color: white;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 27px;
+    margin-left: 60px;
+    padding: 15px;
+
+}
+
+.fourth-second>img {
+    margin-top: 28px;
+    width: 110px;
+}
+
+/* styling the fifth vertical div with one pic */
+#grid-5 {
+    padding: 10px;
+    width: 150px;
+
+}
+
+.fifth-first {
+    width: 150px;
+    background-color: white;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 120px;
+    padding: 10px;
+    padding: 15px;
+    margin-left: 100px;
+}
+
+.fifth-first>img {
+    margin-top: 28px;
+    width: 110px;
+}
+
+/* styling the latest work */
+#work-wrapper {
+    padding: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#work-description {
+    width: 50%;
+    border-radius: 7px;
+    height: 500px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#work-detail {
+    width: 50%;
+    height: 500px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#work-detail>h3 {
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;       
+}
+
+#work-detail>h4 {
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#btn-1 {
+    padding: 18px;
+    margin: 10px;
+    margin-bottom: 150px;
+}
+
+#btn-1>a {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+#work-image{
+    width: 50%;
+    border-radius: 8px;
+    background-color: #89cff0;
+    font-family: 'Montserrat', sans-serif;
+}
+  /* styling footer  */
+  .footer{
+      margin-top: 100px;
+      position: absolute;
+      background-color: #89cff0;
+      font-family: 'Montserrat', sans-serif;
+  }
+  #footer-bg{
+      position: absolute;
+      background-color: #89cff0;
+  }
+.footer-white-mask{
+   margin-top: -200px;
+   position: relative;
+   background-color: #89cff0;
+}
+#footer-white-mask>img{
+    margin-top: 200px;
+    background-color: #89cff0;
+}
+#img-1{
+    position: fixed;
+    margin-top: -30px;
+}
+#img-2{
+    position: relative;
+}
+.footer-container{
+    position: relative;
+}
+#footer-text{
+    position: relative;
+    font-size: 30px;
+}
+#footer-text>button{
+    position: relative;
+
+}
+.footer-social{
+    position: relative;
+}
+.form-head{
+    width: 100%;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.form-head>h3{
+    padding: 20px;
+    font-size: 30px;
+}
+.form-head>p{
+    padding: 20px;
+    margin-top: -20px;
+
+}
+.form-body{
+    font-family: 'Montserrat', sans-serif;
+   padding: 20px;
+   margin: 50px;
+}
+input[type=text] {
+border: 4px solid #8842d5;
+border: 0px;  
+
+}
+input[type=email] {
+border: 4px solid #8842d5;
+border: 0px;  
+
+}
+input[type=password] {
+border: 4px solid #8842d5;
+border: 0px;  
+
+}
+input[type=textarea] {
+border: 4px solid #8842d5;
+border: 0px;  
+
+}
+.fa-brands{
+width:40px;
+height: 40px;
+border-radius: 50px;
+padding: 7px;
+
+}
+.social-wrapper{
+border-radius: 50%;
+}
+
