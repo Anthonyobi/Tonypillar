@@ -4,7 +4,8 @@ $username= "root";
 $password= "";
 $dbase="classwork";
 $conn = mysqli_connect($servername, $username, $password, $dbase);
-if($conn){//test the connection
+if($conn)
+{//test the connection
     echo "connection successful"."<br>";
 
 }else{
@@ -39,12 +40,11 @@ $sq1="CREATE TABLE IF NOT EXISTS paper
              echo "Table could not be updated".mysqli_error($conn);
          }
          mysqli_close($conn);
-
          
     $errMessage ="";
 
- 
 if ($_POST) {
+
     //CHECKING WHETHER THE FORM FIELDS ARE EMPTY
     if (empty($name))
     $errMessage .= "Name cannot be left blank.<br>";
@@ -52,7 +52,6 @@ if ($_POST) {
     $errMessage .= "subject cannot be left blank.<br>";
     if (empty($textarea))
     $errMessage .= "description cannot be left blank.<br>";
-
 
        if (empty($email))
        $errMessage .= "email cannot be left blank.<br>";
@@ -63,11 +62,10 @@ if ($_POST) {
        if (empty($errMessage)){
            echo " <p>Thank you for registering . here is the information you submitted:</p>
          
-       
            Name: $name<br>
          
            Email ID: $email<br> ";
        }
 }
-    header("Location:paper.html");
+    header("Location:index.html");
 ?>
